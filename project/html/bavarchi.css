@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+#sec_1{
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    background-color: red;
+    /* border: 2px solid red; */
+    justify-content: center;
+    align-items: center;
+}
+#menu{
+    flex-basis: 20%;
+    /* border: 2px solid blue; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: cursive;
+    
+
+}
+#bavarchi{
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 60%;
+    font-weight: 800;
+    font-size: 45px;
+    height: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#anchor{
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    align-items: self-end;
+    flex-basis: 20%;
+    height: 100%;
+    width: 100%;
+    font-family: cursive;
+    
+}
+a{
+    text-decoration: none;
+}
+#sec_2{
+    height: 80vh;
+    /* border: 2px solid red; */
+    display: flex;
+}
+#sec_2_1{
+    flex-basis: 50%;
+    /* border: 4px solid black; */
+}
+#sec_2_2{
+    flex-basis: 50%;
+    /* border: 2px solid black; */
+    /* border: 5px solid green; */
+}
+#content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    background-color: aqua;
+    background-color: color-mix(in srgb, 20%, aqua 80%);
+    font-size: 25px;
+    font-family: cursive;
+}
+table{
+    width: 100%;
+    border: 2px solid black;
+    /* color: white; */
+}
+th{
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 1px 2px red;
+}
+td{
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    place-items: center;
+    color: white;
+    font-weight: 800;
+    font-size: 15px;
+
+   }
+   #sumof{
+    display: flex;
+   padding-left: 50px;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+   }
+   body{
+    background-image: url(./download.jpg);
+    background-size: cover;
+   }
+   .selected{
+    background-color: green;
+   }
